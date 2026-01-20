@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1768802309756,
+    "question": "Good Questions",
+    "name": "Aryan Mittal",
+    "userEmail": "aryan@gmail.com",
+    "productId": "Oval%20Side%20Stone%20Reverse%20Tapered%20Diamond%20Studded%20Shank",
+    "rating": 0,
+    "date": "2026-01-19T05:58:29.756Z"
+  },
+  {
+    "id": 1768896587673,
+    "question": "Ye melody itni choclaty kyu he",
+    "name": "Ayush",
+    "userEmail": "ayush@gmail.com",
+    "productId": "Round%20Three%20Stone%20Nature%20Inspired%20Plain%20Shank",
+    "rating": 0,
+    "date": "2026-01-20T08:09:47.673Z"
+  },
+  {
+    "id": 1768901271729,
+    "name": "Olivia Brown",
+    "question": "Is the product true to size as shown in the images?",
+    "userEmail": "Olivia@gmail.com",
+    "productId": "Round%20Claw-Set%20knife%20Edge%20Plain%20Shank",
+    "rating": 0,
+    "date": "2026-01-20T09:27:51.729Z"
+  },
+  {
+    "id": 1768901291070,
+    "name": "Emily Johnson",
+    "question": "Does the metal finish fade over time with daily use?",
+    "userEmail": "Emily@gmail.com",
+    "productId": "Round%20Claw-Set%20knife%20Edge%20Plain%20Shank",
+    "rating": 0,
+    "date": "2026-01-20T09:28:11.070Z"
+  },
+  {
+    "id": 1768901309673,
+    "name": "Sophia Williams",
+    "question": "How accurate is the total carat weight mentioned?",
+    "userEmail": "Sophia@gmail.com",
+    "productId": "Round%20Claw-Set%20knife%20Edge%20Plain%20Shank",
+    "rating": 0,
+    "date": "2026-01-20T09:28:29.673Z"
+  },
+  {
+    "id": 1768910200845,
+    "productId": "Oval Side Stone Reverse Tapered Diamond Studded Shank",
+    "name": "Sunil Mittal",
+    "userEmail": "sunil@gmail.com",
+    "question": "Bad Questions",
+    "date": "2026-01-20T11:56:40.845Z"
+  }
+]
