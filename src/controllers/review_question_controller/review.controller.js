@@ -2,8 +2,6 @@ import { readJSON, writeJSON } from "../../utils/fileStorage.js";
 import Review from "./../../schema/reviews.schema.js";
 
 export const addReview = async (req, res) => {
-  const reviews = readJSON("reviews.json");
-
   const review = {
     ...req.body,
     productId: decodeURIComponent(req.body.productId),
