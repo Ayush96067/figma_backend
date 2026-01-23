@@ -1,4 +1,3 @@
-import { readJSON, writeJSON } from "../../utils/fileStorage.js";
 import Review from "./../../schema/reviews.schema.js";
 
 export const addReview = async (req, res) => {
@@ -12,9 +11,12 @@ export const addReview = async (req, res) => {
   res.status(201).json({ message: "Added review" });
 };
 
-export const getReview = async (req, res) => {
+export const getReviewById = async (req, res) => {
   try {
-    const reviews = await Review.find();
+    const { id } = req.params;
+
+    const reviews = await Review.find({ productId: id });
+
     res.json(reviews);
   } catch (error) {
     console.error("Error while fetching the data");

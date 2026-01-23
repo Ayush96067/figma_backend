@@ -17,16 +17,14 @@ export const addQuestions = async (req, res) => {
   }
 };
 
-export const getQuestions = async (req, res) => {
+export const getQuestionsById = async (req, res) => {
   try {
-    const questions = await Question.find();
-    // const questions = await Question.find({
-    //   productId: "Oval Side Stone Reverse Tapered Diamond Studded Shank",
-    // });
+    const { id } = await req.params;
+    const questions = await Question.find({ productId: id });
 
     res.json(questions);
-  } catch (error) {
-    console.error("Error while fetching the data");
+  } catch (err) {
+    console.error(err);
     res.status(400).json({ message: "Not able to fetch the data" });
   }
 };

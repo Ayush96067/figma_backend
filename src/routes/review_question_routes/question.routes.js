@@ -1,12 +1,12 @@
 import express from "express";
 import {
   addQuestions,
-  getQuestions,
+  getQuestionsById,
 } from "../../controllers/review_question_controller/question.controller.js";
 
 const router = express.Router();
 
-router.get("/questions", getQuestions);
 router.post("/questions", addQuestions);
+router.get("/questions/:id", getQuestionsById);
 
 export default router;

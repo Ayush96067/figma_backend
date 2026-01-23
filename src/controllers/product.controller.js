@@ -4,6 +4,7 @@ export const getProductById = async (req, res) => {
   try {
     const { id } = req.params;
     const products = await Product.find({ name: id });
+
     res.json(products);
   } catch (error) {
     console.error(error);
@@ -16,7 +17,6 @@ export const getAllProducts = async (req, res) => {
     const products = await Product.find();
     res.json(products);
   } catch (error) {
-    console.error(error);
     res.status(401).json({ message: "Error while fetching products" });
   }
 };
